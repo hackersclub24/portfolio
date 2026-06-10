@@ -1,0 +1,4 @@
+public/models/*.enc filter=lfs diff=lfs merge=lfs -text
+public/models/*.hdr filter=lfs diff=lfs merge=lfs -text
+public/images/*.webp filter=lfs diff=lfs merge=lfs -text
+public/draco/*.wasm filter=lfs diff=lfs merge=lfs -text

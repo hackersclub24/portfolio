@@ -1,0 +1,18 @@
+.techstack {
+  position: relative;
+}
+
+.tech-canvas {
+  position: relative;
+  z-index: 1;
+}
+
+.tech-canvas-placeholder {
+  min-height: 340px;
+}
+
+@media only screen and (max-width: 900px) {
+  .tech-canvas-placeholder {
+    min-height: 280px;
+  }
+}
