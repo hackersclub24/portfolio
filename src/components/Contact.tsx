@@ -25,12 +25,12 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Links</h4>
             <a
-              href="https://github.com/hackersclub24/fastapi"
+              href={resume.socials.github}
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
-              GitHub Project <MdArrowOutward />
+              GitHub Profile <MdArrowOutward />
             </a>
             <a
               href="https://www.skill-street.in/"
@@ -49,12 +49,13 @@ const Contact = () => {
               Live API Docs <MdArrowOutward />
             </a>
             <a
-              href="#about"
+              href={resume.resumeUrl}
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Resume Profile <MdArrowOutward />
+              Resume PDF <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">

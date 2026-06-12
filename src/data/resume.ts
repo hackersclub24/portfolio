@@ -1,7 +1,8 @@
 export const resume = {
   name: "Abhishek Mathur",
   title: "Full Stack Developer",
-  tagline: "FastAPI • React.js • Next.js",
+  tagline: "FastAPI • Next.js • SQL",
+  resumeUrl: "/Abhishek_Mathur_Resume.pdf.pdf",
   email: "abhishekmathur200624@gmail.com",
   phone: "+91-7827774787",
   location: "YMCA, Faridabad, India",
@@ -11,7 +12,7 @@ export const resume = {
     instagram: "https://www.instagram.com/abhishekmathur.official_/",
   },
   profile:
-    "Second-year B.Tech CSE (AI & ML) student specializing in full stack development using FastAPI and React/Next.js. Experienced in building end-to-end web applications with REST APIs, frontend integration, and database management. Strong focus on scalable backend systems, clean architecture, and seamless frontend-backend communication.",
+    "I'm a second-year B.Tech CSE (AI & ML) student who loves turning ideas into real, working products. I build full-stack web apps using FastAPI on the backend and Next.js on the frontend — from REST APIs and database design to polished, responsive UIs. I care about clean architecture, good developer experience, and shipping things that actually work in production.",
   education: {
     degree: "Bachelor of Technology in Computer Science Engineering (AI & ML)",
     institute: "YMCA — Faridabad, India",
@@ -35,7 +36,7 @@ export const resume = {
       description:
         "Designed and implemented a production-ready backend API for an e-commerce platform using FastAPI. Implemented RESTful endpoints, comprehensive OpenAPI documentation, authentication, and SQL-based persistence with a modular architecture for maintainability and scaling.",
       link: "https://github.com/hackersclub24/fastapi",
-      image: "/images/code-rockett.png",
+      image: "/images/e-com.jpg",
       features: "RESTful API design, OpenAPI docs, auth, SQL persistence",
     },
     {

@@ -161,27 +161,32 @@
   z-index: 9;
   top: 12%;
   left: 0;
+  max-width: 45%;
 }
 .landing-intro h2 {
   margin: 0;
   color: var(--accentColor);
+  font-family: "ClashDisplay", sans-serif;
   font-size: 22px;
   font-weight: 300;
+  font-style: normal;
   letter-spacing: 2px;
 }
 
 .landing-intro h1 {
   margin: 0;
+  margin-top: 4px;
   letter-spacing: 2px;
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 48px;
+  line-height: 1.0;
   font-weight: 500;
-  font-family: "Geist", sans-serif;
+  font-family: "ClashDisplay", sans-serif;
+  text-transform: uppercase;
 }
 
-/* .landing-intro h1 span {
-   font-weight: 200; 
-} */
+.landing-intro h1 span {
+  display: block;
+}
 
 .landing-info {
   position: absolute;
@@ -190,59 +195,39 @@
   bottom: 40px;
   top: inherit;
   z-index: 9;
+  text-align: center;
 }
 .landing-info h3 {
-  font-size: 22px;
-  letter-spacing: 2px;
-  font-weight: 300;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: 400;
   color: var(--accentColor);
   margin: 0;
+  text-transform: none;
 }
-.landing-info h2 {
-  margin: 0;
-  margin-top: -20px;
-  margin-left: 20px;
-  font-family: "Geist", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
+.landing-cycle-slot {
   position: relative;
-  display: flex;
-  flex-wrap: nowrap;
-  text-transform: uppercase;
+  height: 1.1em;
+  margin-top: 4px;
+  font-family: "ClashDisplay", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.1em;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
-.landing-h2-info-1 {
+.cycle-word {
   position: absolute;
-  top: 0;
-}
-h2.landing-info-h2 {
-  color: #c481ff;
-  font-size: 42px;
-  width: 120%;
-  margin: 0;
-  font-family: "Geist", sans-serif;
-  font-weight: 600;
-  position: relative;
-  margin-left: -5px;
-}
-.landing-h2-2 {
-  position: absolute;
-  top: 0;
-}
-.landing-info-h2::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 120%;
-  z-index: 3;
-  background-image: linear-gradient(
-    0deg,
-    var(--backgroundColor) 40%,
-    rgba(0, 0, 0, 0) 110%
-  );
   top: 0;
   left: 0;
+  width: 100%;
+  text-align: inherit;
+  white-space: nowrap;
+  font-weight: 600;
+  color: #ffffff;
+  transform: translateY(100%);
+  opacity: 0;
 }
 @media screen and (min-width: 500px) {
   .landing-circle2 {
@@ -255,18 +240,14 @@ h2.landing-info-h2 {
     font-size: 18px;
   }
   .landing-intro h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .landing-intro h1 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 44px;
+    line-height: 1.0;
   }
-  .landing-info h2 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  h2.landing-info-h2 {
-    font-size: 38px;
+  .landing-cycle-slot {
+    font-size: 44px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -274,21 +255,17 @@ h2.landing-info-h2 {
     height: 80vh;
   }
   .landing-intro h2 {
-    font-size: 25px;
+    font-size: 24px;
   }
   .landing-intro h1 {
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 56px;
+    line-height: 1.0;
   }
   .landing-info h3 {
     font-size: 25px;
   }
-  .landing-info h2 {
-    font-size: 45px;
-    line-height: 42px;
-  }
-  h2.landing-info-h2 {
-    font-size: 55px;
+  .landing-cycle-slot {
+    font-size: 60px;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -304,9 +281,10 @@ h2.landing-info-h2 {
   }
   .landing-intro {
     top: 50%;
-    left: auto;
-    right: 66%;
+    left: 5%;
+    right: auto;
     transform: translate(0%, -50%);
+    max-width: 40%;
   }
 
   .landing-info {
@@ -322,9 +300,10 @@ h2.landing-info-h2 {
 @media screen and (min-width: 1200px) {
   .landing-intro {
     top: 50%;
-    left: auto;
-    right: 70%;
+    left: 8%;
+    right: auto;
     transform: translate(0%, -50%);
+    max-width: 38%;
   }
 
   .landing-info {
@@ -339,20 +318,16 @@ h2.landing-info-h2 {
 }
 @media screen and (min-width: 1600px) {
   .landing-intro h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .landing-intro h1 {
-    font-size: 60px;
-    line-height: 55px;
+    font-size: 80px;
+    line-height: 1.0;
   }
   .landing-info h3 {
     font-size: 35px;
   }
-  .landing-info h2 {
-    font-size: 65px;
-    line-height: 62px;
-  }
-  h2.landing-info-h2 {
-    font-size: 75px;
+  .landing-cycle-slot {
+    font-size: 80px;
   }
 }
