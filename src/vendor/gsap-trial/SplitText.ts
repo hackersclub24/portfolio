@@ -48,11 +48,21 @@ export class SplitText {
 
     elements.forEach((element) => {
       this.originals.push({ element, html: element.innerHTML });
+
+      // Split only this element's own direct text, not children's text
       const text = element.textContent ?? "";
       element.innerHTML = Array.from(text)
-        .map((char) => `<span class="split-char">${escapeHtml(char)}</span>`)
+        .map(
+          (char) =>
+            `<span class="split-char" style="display:inline-block;">${
+              char === " " ? "&nbsp;" : escapeHtml(char)
+            }</span>`
+        )
         .join("");
-      const chars = Array.from(element.querySelectorAll<HTMLElement>(".split-char"));
+
+      const chars = Array.from(
+        element.querySelectorAll<HTMLElement>(".split-char")
+      );
       this.chars.push(...chars);
       this.words.push(...chars);
     });
