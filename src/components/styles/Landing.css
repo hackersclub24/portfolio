@@ -161,7 +161,7 @@
   z-index: 9;
   top: 12%;
   left: 0;
-  max-width: 45%;
+  max-width: 90%;
 }
 .landing-intro h2 {
   margin: 0;
@@ -177,7 +177,7 @@
   margin: 0;
   margin-top: 4px;
   letter-spacing: 2px;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 1.0;
   font-weight: 500;
   font-family: "ClashDisplay", sans-serif;
@@ -245,6 +245,9 @@
   .landing-intro h1 {
     font-size: 44px;
     line-height: 1.0;
+  }
+  .landing-intro {
+    max-width: 55%;
   }
   .landing-cycle-slot {
     font-size: 44px;
