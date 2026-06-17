@@ -2,7 +2,7 @@ export const resume = {
   name: "Abhishek Mathur",
   title: "Full Stack Developer",
   tagline: "FastAPI • Next.js • SQL",
-  resumeUrl: "/Abhishek_Mathur_Resume.pdf.pdf",
+  resumeUrl: "/Abhishek_Mathur_Resume.pdf",
   email: "abhishekmathur200624@gmail.com",
   phone: "+91-7827774787",
   location: "YMCA, Faridabad, India",
