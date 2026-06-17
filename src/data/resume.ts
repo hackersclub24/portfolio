@@ -12,7 +12,7 @@ export const resume = {
     instagram: "https://www.instagram.com/abhishekmathur.official_/",
   },
   profile:
-    "I'm a second-year B.Tech CSE (AI & ML) student who loves turning ideas into real, working products. I build full-stack web apps using FastAPI on the backend and Next.js on the frontend — from REST APIs and database design to polished, responsive UIs. I care about clean architecture, good developer experience, and shipping things that actually work in production.",
+    "I'm a Third-year B.Tech CSE (AI & ML) student who loves turning ideas into real, working products. I build full-stack web apps using FastAPI on the backend and Next.js on the frontend — from REST APIs and database design to polished, responsive UIs. I care about clean architecture, good developer experience, and shipping things that actually work in production.",
   education: {
     degree: "Bachelor of Technology in Computer Science Engineering (AI & ML)",
     institute: "YMCA — Faridabad, India",
